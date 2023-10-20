@@ -19,6 +19,7 @@ class_matrix_m = np.array(([96.6, 95.5, 94.9, 91.4, 98.7, 97.9, 98.3,], # Amazon
                            [77.7, 71.7, 77.5, 79.4, 84.8, 79.0, 77.2 ],  # Microsoft
                            [95.9, 94.4, 90.4, 89.7, 98.1, 96.8, 97.8 ],   # Face ++
                            ))
+
 gender = ["Female","Male" ]
 groups = ["White", "Black", "East Asian", "SE Asian", "Latino", "Indian", "Mid Eastern"]
 software = ["Amazon","Microsoft", "Face++"]
@@ -37,7 +38,7 @@ sizes[1] = 100 -sizes[0]
 
 fig1, ax1 = plt.subplots()
 pie = ax1.pie(sizes, explode=explode,  autopct='%1.1f%%',labels=["Accuracy", "Inaccuracy"],
-        shadow=False, startangle=90,autopct=None)
+        shadow=False, startangle=90)
 pie[0][1].set_alpha(0)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 st.pyplot(fig1)
