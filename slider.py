@@ -10,7 +10,7 @@ import numpy as np
     
 # Title and Description
 st.title(":rainbow[Bias Exposure Lens]")
-st.header("Facial Recognition Accuracy",divider='rainbow')
+st.header("Facial Recognition Accuracy")
 sizes = [100, 0]
 explode = (0, 0) 
 
