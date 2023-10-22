@@ -9,8 +9,8 @@ import numpy as np
 
     
 # Title and Description
-st.title("Bias Exposure Lens")
-st.header(" Accuracy Pie Chart")
+st.title(":rainbow[Bias Exposure Lens]")
+st.header("Facial Recognition Accuracy",divider='rainbow')
 sizes = [100, 0]
 explode = (0, 0) 
 
@@ -92,4 +92,6 @@ pie[0][1].set_alpha(0)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 st.pyplot(fig1)
 st.header(f" Accuracy: {sizes[0]:.2f}%")
-
+st.markdown("""Numbers and accuracy according to FairFace: Face Attribute Dataset for Balanced Race, Gender, and Agefor Bias Measurement and Mitigation
+            by Kimmo Karkkäinen and Jungseock Joo.
+            """)
