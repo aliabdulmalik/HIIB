@@ -92,6 +92,5 @@ pie[0][1].set_alpha(0)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 st.pyplot(fig1)
 st.header(f" Accuracy: {sizes[0]:.2f}%")
-st.markdown("""Numbers and accuracy according to FairFace: Face Attribute Dataset for Balanced Race, Gender, and Agefor Bias Measurement and Mitigation
-            by Kimmo Karkkäinen and Jungseock Joo.
+st.markdown("""Numbers and accuracy according to: K. Kärkkäinen and J. Joo, "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation," 2021 IEEE Winter Conference on Applications of Computer Vision (WACV), Waikoloa, HI, USA, 2021, pp. 1547-1557, doi: 10.1109/WACV48630.2021.00159.
             """)
